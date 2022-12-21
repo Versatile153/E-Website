@@ -384,6 +384,10 @@ body {
   margin-block-end: 30px;
 }
 
+details{
+  color: white;
+  font-size:large;
+}
 
 
 
