@@ -252,8 +252,10 @@ body {
   --color: var(--st-patricks-blue);
 
   position: fixed;
+
+
   background-color: var(--white);
-  box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);
+  box-shadow: 0 2px 30px hsla(48, 97%, 50%, 0.1);
 }
 
 .header .container {
@@ -347,8 +349,12 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/hero-bg-bottom.png"),
+   /* background-image: url("../images/hero-bg-bottom.png"),
                     url("../images/hero-bg.png"),
+                    var(--gradient-1); */
+
+                    background-image: url("../images/hero-bg-bottom.png"),
+                    url("https://images.unsplash.com/photo-1586521532926-7db207e5b019?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHllbGxvdyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"),
                     var(--gradient-1);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: -280px bottom, center, center;
